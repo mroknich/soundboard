@@ -48,6 +48,8 @@ header {
 
     -webkit-box-reflect: below -20px -webkit-gradient(linear, left top, left bottom, from(transparent), to(white));
 
+    display: flex;
+    justify-content: flex-end;
 }
 
 
