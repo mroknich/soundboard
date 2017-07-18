@@ -18,8 +18,8 @@ body {
 
 main {
 }
+
 header {
-    justify-content: space-around;
 }
 
 .logo{
@@ -39,17 +39,24 @@ header {
 }
 
 .fun{
+    font-family: monospace;
+    text-transform: uppercase;
+    font-size: 4em;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: red;
+
+    -webkit-box-reflect: below -20px -webkit-gradient(linear, left top, left bottom, from(transparent), to(white));
 
 }
+
 
 section {
 	/* color rgb(243,234,95) is used */
 
 }
 section > div {
-    /* font is 'Comic Sans MS, text is automatically adjusted to lowercase do not mod the HTML */
-    flex-direction: row-reverse;
-    
+    /* font is 'Comic Sans MS, text is automatically adjusted to lowercase do not mod the HTML */    
     
 }
 section > aNastyNthChildSelectorToWrite {
