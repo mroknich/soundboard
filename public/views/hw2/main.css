@@ -62,6 +62,7 @@ header {
 section {
 	/* color rgb(243,234,95) is used */
 	display: flex;
+	flex-direction: column-reverse;
     background-color: rgb(243,234,95)
 }
 section > div:nth-child(1) {
@@ -112,6 +113,15 @@ section > nth-child(3):after {
 footer{
     background-color: rgb(255,105,180);
 }
+
+div > img{
+	height: 100px;
+	width: 80px;
+}
+
+span{
+}
+
 	
 	/* a freebie for fun */
 aside {
