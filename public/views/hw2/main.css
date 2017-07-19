@@ -10,6 +10,7 @@ body {
     background-image: url("background.png"); 
     background-color: #ffffff;
     border-image: url("border.gif") 25 30 10 20 repeat;
+    padding: 25px 75px 50px
 }
 
 #spritesheet path {
@@ -77,6 +78,7 @@ section > div:nth-child(2) {
     /* font is 'Comic Sans MS, text is automatically adjusted to lowercase do not mod the HTML */   
     background-color: rgb(43,209,252);
     width: 50%;
+    text-align: right; 
 }
 
 section > div:nth-child(3) {
@@ -89,6 +91,7 @@ section > div:nth-child(4) {
     /* font is 'Comic Sans MS, text is automatically adjusted to lowercase do not mod the HTML */   
     background-color: rgb(43,209,252);
     width: 50%;
+    text-align: right; 
 }
 
 section > aNastyNthChildSelectorToWrite {
@@ -108,6 +111,9 @@ section > nth-child(3):after {
 
 	}
 
+footer{
+    background-color: rgb(255,105,180);
+}
 	
 	/* a freebie for fun */
 aside {
