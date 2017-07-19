@@ -10,8 +10,8 @@ body {
     background-image: url("background.png"); 
     background-color: #ffffff;
     border-image: url("border.gif") 25 30 10 20 repeat;
-    padding: 25px 75px 50px
-}
+    margin: 20px 100px 50px;
+} 
 
 #spritesheet path {
   fill: #ffffff;
@@ -56,35 +56,32 @@ header {
     justify-content: flex-end;
 }
 
-.wrapper{
-    display: flex;
-    justify-content: space-between;
-}
-
-
 section {
 	/* color rgb(243,234,95) is used */
     display: flex;
     flex-direction: column-reverse;
+    justify-content: space-between;
     background-color: rgb(243,234,95)
 }
 section > div:nth-child(1) {
     /* font is 'Comic Sans MS, text is automatically adjusted to lowercase do not mod the HTML */   
     background-color: rgb(192,77,249);
     width: 50%;
+    float: right;
 }
 
 section > div:nth-child(2) {
     /* font is 'Comic Sans MS, text is automatically adjusted to lowercase do not mod the HTML */   
     background-color: rgb(43,209,252);
     width: 50%;
-    text-align: right; 
+    text-align: right;
 }
 
 section > div:nth-child(3) {
     /* font is 'Comic Sans MS, text is automatically adjusted to lowercase do not mod the HTML */   
     background-color: rgb(192,77,249);
     width: 50%;
+    float: right;
 }
 
 section > div:nth-child(4) {
