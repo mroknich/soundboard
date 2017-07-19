@@ -27,9 +27,9 @@ header {
 
 .logo{
     display: block;
-    height: 100px;
+    height: 60px;
     width: 100px;
-    line-height: 100px;
+    line-height: 60px;
 
     -moz-border-radius: 50px; /* or 50% */
     border-radius: 50px; /* or 50% */
@@ -50,7 +50,7 @@ header {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: red;
 
-    -webkit-box-reflect: below -95px -webkit-gradient(linear, left top, left bottom, from(transparent), to(white));
+    -webkit-box-reflect: below -20px -webkit-gradient(linear, left top, left bottom, from(transparent), to(white));
 
     display: flex;
     justify-content: flex-end;
