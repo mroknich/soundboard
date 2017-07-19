@@ -64,16 +64,38 @@ header {
 
 section {
 	/* color rgb(243,234,95) is used */
+    display: flex;
+    flex-direction: column-reverse;
+}
+section > div:nth-child(1) {
+    /* font is 'Comic Sans MS, text is automatically adjusted to lowercase do not mod the HTML */   
+    background-color: rgb(192,77,249);
+    width: 50%
+}
+
+section > div:nth-child(2) {
+    /* font is 'Comic Sans MS, text is automatically adjusted to lowercase do not mod the HTML */   
+    background-color: rgb(43,209,252);
+    width: 50%
+}
+
+section > div:nth-child(3) {
+    /* font is 'Comic Sans MS, text is automatically adjusted to lowercase do not mod the HTML */   
+    background-color: rgb(192,77,249);
+    width: 50%
 
 }
-section > div {
-    /* font is 'Comic Sans MS, text is automatically adjusted to lowercase do not mod the HTML */    
-    
+
+section > div:nth-child(4) {
+    /* font is 'Comic Sans MS, text is automatically adjusted to lowercase do not mod the HTML */   
+    background-color: rgb(43,209,252);
+    width: 50%
 }
+
 section > aNastyNthChildSelectorToWrite {
 	/* ANastNthChildSelectorToWrite means what it says it isn't an indetifier */
 	/* background color is  rgb(192,77,249) */
-	
+
     
 }
 section > aNastyNthChildSelectorToWrite {
@@ -81,10 +103,15 @@ section > aNastyNthChildSelectorToWrite {
     /* background color is  rgb(43,209,252) */
 
 }
-section > div:nth-child(3):after {
+section > #fun:nth-child(1):after {
 	/* gave you the nth child after selector for free to inspire you */
 	/* generated content in here ... a property can do that */
+    content = " ";
+    background-color: rgb(243,234,95);
+    width: 50%;
+
 	}
+
 	
 	/* a freebie for fun */
 aside {
