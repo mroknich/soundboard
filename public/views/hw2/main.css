@@ -9,8 +9,6 @@
 body {
     background-image: url("background.png"); 
     background-color: #ffffff;
-    border-image: url("border.gif") 25 30 10 20 repeat;
-    margin: 20px 100px 50px;
 } 
 
 #spritesheet path {
@@ -21,6 +19,10 @@ body {
 }
 
 main {
+	border-image: url("border.gif") 25 30 10 20 repeat;
+    margin: 20px 100px 50px;
+    border-width: 10px;
+    background: white;
 }
 
 header {
@@ -58,9 +60,7 @@ header {
 
 section {
 	/* color rgb(243,234,95) is used */
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-between;
+	display: flex;
     background-color: rgb(243,234,95)
 }
 section > div:nth-child(1) {
