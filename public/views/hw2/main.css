@@ -14,13 +14,10 @@ body {
 #spritesheet path {
   fill: #ffffff;
 }
-#spritesheet #viewBox {
-
-}
 
 main {
 	border-image: url("border.gif") 25 30 10 20 repeat;
-    margin: 20px 100px 50px;
+    margin: -145px 100px 50px;
     border-width: 10px;
     background: white;
 }
@@ -42,6 +39,8 @@ header {
     text-align: center;
     font-size: 2em;
     font-family: 'Monoton', sans-serif;
+    
+    float: left;
 }
 
 .fun{
@@ -56,6 +55,8 @@ header {
 
     display: flex;
     justify-content: flex-end;
+    
+    float: right;
 }
 
 section {
