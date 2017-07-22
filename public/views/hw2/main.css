@@ -12,25 +12,25 @@ body {
 } 
 
 svg{
-	-webkit-transition: -webkit-transform 2.5s ease-in-out; 
-	-webkit-transition: all 2.5s ease-in;
-	fill: #ffffff;
+    -webkit-transition: -webkit-transform 2.5s ease-in-out; 
+    -webkit-transition: all 2.5s ease-in;
+    fill: #ffffff;
 }
 
 svg:hover {
-	-webkit-transform: scale(2.5) rotate(1080deg);
-	fill: black;
+    -webkit-transform: scale(2.5) rotate(1080deg);
+    fill: black;
 }
 
 main {
-	border: 30px solid transparent;
-	-webkit-border-image: url("border.gif") 20% round;
+    border: 30px solid transparent;
+    -webkit-border-image: url("border.gif") 20% round;
     margin: -145px 100px 50px;
     background: white;
 }
 
 header {
-	padding: 20px 20px 100px 20px;
+    padding: 20px 20px 100px 20px;
 }
 
 .logo{
@@ -68,9 +68,9 @@ header {
 }
 
 section {
-	/* color rgb(243,234,95) is used */
-	display: flex;
-	flex-direction: column-reverse;
+    /* color rgb(243,234,95) is used */
+    display: flex;
+    flex-direction: column-reverse;
     background-color: rgb(243,234,95);
     font-family: "Comic Sans MS", cursive;
     text-transform: lowercase;
@@ -102,9 +102,9 @@ section > div:nth-child(3) {
 }
 
 section > div:nth-child(3):after {
-	/* gave you the nth child after selector for free to inspire you */
-	/* generated content in here ... a property can do that */
-	content: ' ' "\2665" '' "\2665" '' "\2665";
+    /* gave you the nth child after selector for free to inspire you */
+    /* generated content in here ... a property can do that */
+    content: ' ' "\2665" '' "\2665" '' "\2665";
 }
 
 section > div:nth-child(4) {
@@ -116,13 +116,13 @@ section > div:nth-child(4) {
 }
 
 section > aNastyNthChildSelectorToWrite {
-	/* ANastNthChildSelectorToWrite means what it says it isn't an indetifier */
-	/* background color is  rgb(192,77,249) */
+    /* ANastNthChildSelectorToWrite means what it says it isn't an indetifier */
+    /* background color is  rgb(192,77,249) */
 
     
 }
 section > aNastyNthChildSelectorToWrite {
-	/* ANastNthChildSelectorToWrite means what it says it isn't an indetifier */
+    /* ANastNthChildSelectorToWrite means what it says it isn't an indetifier */
     /* background color is  rgb(43,209,252) */
 
 }
@@ -136,39 +136,39 @@ footer{
 }
 
 div > img{
-	height: 100px;
-	width: 80px;
-	padding-right: 5px;
-	
-	-webkit-transition: all 0.5s ease-in-out; 
-	-webkit-transition: opacity 0.2s ease-in-out;
+    height: 100px;
+    width: 80px;
+    padding-right: 5px;
+    
+    -webkit-transition: all 0.5s ease-in-out; 
+    -webkit-transition: opacity 0.2s ease-in-out;
 
 }
 
 img:hover + span {
-	/*opacity: 1;	*/
-	display: inline;
+    /*opacity: 1;   */
+    display: inline;
 }
 
 img:hover + span:before {
-	/*opacity: 1;	*/
-	display: inline;
+    /*opacity: 1;   */
+    display: inline;
 }
 
 footer > div > span{
-	position: absolute;
-	margin-top: 10px;
-	margin-left: 10px;
-	/*width: 150px;
-	height: 75px;*/
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    /*width: 150px;
+    height: 75px;*/
   
-	padding: 3px;
-	border-radius: 5px;
-	border: solid black;
-	background: white;
-	
-	/*opacity: 0;*/
-	display: none;	
+    padding: 3px;
+    border-radius: 5px;
+    border: solid black;
+    background: white;
+    
+    /*opacity: 0;*/
+    display: none;  
 }
 
 footer > div > span:before {
@@ -183,15 +183,15 @@ footer > div > span:before {
   border-right: 12px solid black;
   border-bottom: 6px solid transparent;
  
-  	/*opacity: 0;*/
-  	display: none;
+    /*opacity: 0;*/
+    display: none;
 }
 
 span{
 }
 
-	
-	/* a freebie for fun */
+    
+    /* a freebie for fun */
 aside {
     background: rgb(255,63,63);
     color: white;
@@ -209,8 +209,8 @@ aside {
 }
 
 [title~=bugs]{
-	width: 30px;
-	height: 30px;
+    width: 30px;
+    height: 30px;
 }
 
 /* Opps truncated the file for you to fill in */
