@@ -1,0 +1,36 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+} 
+
+header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+body > p {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+body > img:nth-child(1) {
+    display: block;
+    margin: auto;
+}
+
+body > button {
+    display: block;
+    margin: auto;
+}
+
+div > img {
+    height: 250px;
+    width: 250px;
+    box-sizing: border-box;
+}
+
+div {
+    box-sizing: border-box;
+}
