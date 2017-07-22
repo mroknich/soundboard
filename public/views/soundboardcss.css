@@ -1,15 +1,9 @@
 body {
     background-color: #000000;
-    color: #ffffff;
+    color: #ffffff
 } 
 
 header {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-}
-
-body > p {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -23,14 +17,25 @@ body > img:nth-child(1) {
 body > button {
     display: block;
     margin: auto;
+    margin-bottom: 10px;
+}
+
+div > div {
+    height: 250px;
+    width: 250px;
+    float: left;
+    padding: 10px;
+    display: table;
 }
 
 div > img {
     height: 250px;
     width: 250px;
-    box-sizing: border-box;
 }
 
-div {
-    box-sizing: border-box;
+body > p {
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
 }
