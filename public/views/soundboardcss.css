@@ -29,13 +29,12 @@ div > div {
 }
 
 div > img {
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
 }
 
-body > p {
-    display: inline-flex;
-    align-items: flex-end;
+footer {
+    display: flex;
     justify-content: center;
-    text-align: center;
+    width: 100%;
 }
