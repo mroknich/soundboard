@@ -1,0 +1,174 @@
+<!-- This will be the structured version of our first assignment -->
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>The Office Fan SoundBoard</title>
+	<link rel="stylesheet" href="./hw3css.css">
+</head>
+
+<body>
+
+<img src="../img/office_header.jpg" align="middle" alt="topPic">
+
+<header>
+<h1>The Office Fan SoundBoard</h1>
+</header>
+
+<button type="button">Login</button>
+
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a onclick="theOffice()" href="#">The Office</a>
+    <a onclick="spongebob()" href="#">Spongebob</a>
+  </div>
+</div>
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+<script>
+
+function theOffice() {
+	document.body.style.backgroundColor = "black";
+	document.body.style.color = "white";
+}
+
+function spongebob() {
+	document.body.style.backgroundColor = "white";
+	document.body.style.color = "black";
+}
+
+</script>
+
+
+<div>
+
+<div>
+<img id="pic1" src="../pictures/pic1.jpg" alt="pic1"/>
+<audio controls>
+<source src="../sounds/sound1.mp3" type="audio/mp3">
+Your browser does not support this audio element.
+</audio>
+</div>
+
+<div>
+<img id="pic2" src="../pictures/pic2.jpg" alt="pic2"/>
+<audio controls>
+<source src="../sounds/sound2.mp3" type="audio/mp3">
+Your browser does not support this audio element.
+</audio>
+</div>
+
+<div>
+<img id="pic3" src="../pictures/pic3.jpg" alt="pic3"/>
+<audio controls>
+<source src="../sounds/sound3.mp3" type="audio/mp3">
+Your browser does not support this audio element.
+</audio>
+</div>
+
+<div>
+<img id="pic4" src="../pictures/pic4.jpg" alt="pic4"/>
+<audio controls>
+<source src="../sounds/sound4.mp3" type="audio/mp3">
+Your browser does not support this audio element.
+</audio>
+</div>
+
+<div>
+<img id="pic5" src="../pictures/pic5.jpg" alt="pic5"/>
+<audio controls>
+<source src="../sounds/sound5.mp3" type="audio/mp3">
+Your browser does not support this audio element.
+</audio>
+</div>
+
+<div>
+<img id="pic6" src="../pictures/pic6.jpg" alt="pic6"/>
+<audio controls>
+<source src="../sounds/sound6.mp3" type="audio/mp3">
+Your browser does not support this audio element.
+</audio>
+</div>
+
+<div>
+<img id="pic7" src="../pictures/pic7.jpg" alt="pic7"/>
+<audio controls>
+<source src="../sounds/sound7.mp3" type="audio/mp3">
+Your browser does not support this audio element.
+</audio>
+</div>
+
+<div>
+<img id="pic8" src="../pictures/pic8.jpg" alt="pic8"/>
+<audio controls>
+<source src="../sounds/sound8.mp3" type="audio/mp3">
+Your browser does not support this audio element.
+</audio>
+</div>
+
+<div>
+<img id="pic9" src="../pictures/pic9.jpg" alt="pic9"/>
+<audio controls>
+<source src="../sounds/sound9.mp3" type="audio/mp3">
+Your browser does not support this audio element.
+</audio>
+</div>
+
+<div>
+<img id="pic10" src="../pictures/pic10.jpg" alt="pic10"/>
+<audio controls>
+<source src="../sounds/sound10.mp3" type="audio/mp3">
+Your browser does not support this audio element.
+</audio>
+</div>
+
+<div>
+<img id="pic11" src="../pictures/pic11.jpg" alt="pic11"/>
+<audio controls>
+<source src="../sounds/sound11.mp3" type="audio/mp3">
+Your browser does not support this audio element.
+</audio>
+</div>
+
+<div>
+<img id="pic12" src="../pictures/pic12.jpg" alt="pic12"/>
+<audio controls>
+<source src="../sounds/sound12.mp3" type="audio/mp3">
+Your browser does not support this audio element.
+</audio>
+</div>
+
+</div>
+
+<footer>
+<p>Bears. Beets. Battlestar Galactica.</p>
+</footer>
+
+</body>
+</html>
+
+<!-- File size: 2,729 bytes -->
+<!-- Load time: 3.35s -->
