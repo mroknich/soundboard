@@ -18,18 +18,18 @@
 <button type="button">Login</button>
 
 <div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-  <div id="myDropdown" class="dropdown-content">
-    <a onclick="theOffice()" href="#">The Office</a>
-    <a onclick="spongebob()" href="#">Spongebob</a>
+  <button id="themeBtn" onclick="myThemeFunction()" class="dropbtn">Change Theme</button>
+  <div id="myDropdownTheme" class="dropdown-content">
+    <a onclick="black()" href="#">Black</a>
+    <a onclick="white()" href="#">White</a>
   </div>
 </div>
 
 <script>
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
+function myThemeFunction() {
+    document.getElementById("myDropdownTheme").classList.toggle("show");
 }
 
 // Close the dropdown if the user clicks outside of it
@@ -49,17 +49,37 @@ window.onclick = function(event) {
 </script>
 
 <script>
-
-function theOffice() {
+function black() {
 	document.body.style.backgroundColor = "black";
 	document.body.style.color = "white";
+	document.getElementById(themeBtn).style.color = "black";
+}
+
+function white() {
+	document.body.style.backgroundColor = "white";
+	document.body.style.color = "black";
+	document.getElementById(themeBtn).style.color = "white";
+}
+</script>
+
+
+
+<div class="dropdown">
+  <button onclick="myContentFunction()" class="dropbtn">Change Content</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a onclick="theOffice()" href="#">The Office</a>
+    <a onclick="spongebob()" href="#">Spongebob</a>
+  </div>
+</div>
+
+<script>
+function theOffice() {
+
 }
 
 function spongebob() {
-	document.body.style.backgroundColor = "white";
-	document.body.style.color = "black";
-}
 
+}
 </script>
 
 
