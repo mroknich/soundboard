@@ -9,7 +9,7 @@
 
 <body>
 
-<img src="../img/office_header.jpg" align="middle" alt="topPic">
+<img id="topimg" src="../img/office_header.jpg" align="middle" alt="topPic">
 
 <header>
 <h1>The Office Fan SoundBoard</h1>
@@ -18,7 +18,7 @@
 <button type="button">Login</button>
 
 <div class="dropdown">
-  <button id="themeBtn" onclick="myThemeFunction()" class="dropbtn">Change Theme</button>
+  <button onclick="myThemeFunction()" class="dropbtn">Change Theme</button>
   <div id="myDropdownTheme" class="dropdown-content">
     <a onclick="black()" href="#">Black</a>
     <a onclick="white()" href="#">White</a>
@@ -52,13 +52,16 @@ window.onclick = function(event) {
 function black() {
 	document.body.style.backgroundColor = "black";
 	document.body.style.color = "white";
-	document.getElementById(themeBtn).style.color = "black";
-}
+	var y = document.getElementsByClassName(dropbtn);
+	y.style.backgroundColor = "black";
+	y.style.color = "white";}
 
 function white() {
 	document.body.style.backgroundColor = "white";
 	document.body.style.color = "black";
-	document.getElementById(themeBtn).style.color = "white";
+	var x = document.getElementsByClassName(dropbtn);
+	x.style.backgroundColor = "white";
+	x.style.color = "black";
 }
 </script>
 
@@ -66,18 +69,67 @@ function white() {
 
 <div class="dropdown">
   <button onclick="myContentFunction()" class="dropbtn">Change Content</button>
-  <div id="myDropdown" class="dropdown-content">
+  <div id="myDropdownContent" class="dropdown-content">
     <a onclick="theOffice()" href="#">The Office</a>
     <a onclick="spongebob()" href="#">Spongebob</a>
   </div>
 </div>
 
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myContentFunction() {
+    document.getElementById("myDropdownContent").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
 <script>
 function theOffice() {
-
+	document.getElementById("topimg").src="../img/office_header.jpg";
+	document.getElementById("pic1").src="../pictures/pic1.jpg";
+	document.getElementById("pic2").src="../pictures/pic2.jpg";
+	document.getElementById("pic3").src="../pictures/pic3.jpg";
+	document.getElementById("pic4").src="../pictures/pic4.jpg";
+	document.getElementById("pic5").src="../pictures/pic5.jpg";
+	document.getElementById("pic6").src="../pictures/pic6.jpg";
+	document.getElementById("pic7").src="../pictures/pic7.jpg";
+	document.getElementById("pic8").src="../pictures/pic8.jpg";
+	document.getElementById("pic9").src="../pictures/pic9.jpg";
+	document.getElementById("pic10").src="../pictures/pic10.jpg";
+	document.getElementById("pic11").src="../pictures/pic11.jpg";
+	document.getElementById("pic12").src="../pictures/pic12.jpg";
 }
 
 function spongebob() {
+	document.getElementById("topimg").src="../spongebobPics/headpic.jpg";
+	document.getElementById("pic1").src="../spongebobPics/pic1.jpg";
+	document.getElementById("pic2").src="../spongebobPics/pic2.jpg";
+	document.getElementById("pic3").src="../spongebobPics/pic3.jpg";
+	document.getElementById("pic4").src="../spongebobPics/pic4.jpg";
+	document.getElementById("pic5").src="../spongebobPics/pic5.jpg";
+	document.getElementById("pic6").src="../spongebobPics/pic6.jpg";
+	document.getElementById("pic7").src="../spongebobPics/pic7.jpg";
+	document.getElementById("pic8").src="../spongebobPics/pic8.jpg";
+	document.getElementById("pic9").src="../spongebobPics/pic9.jpg";
+	document.getElementById("pic10").src="../spongebobPics/pic10.jpg";
+	document.getElementById("pic11").src="../spongebobPics/pic11.jpg";
+	document.getElementById("pic12").src="../spongebobPics/pic12.jpg";
 
 }
 </script>
