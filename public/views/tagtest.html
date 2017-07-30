@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- meta tags -->
+	<meta charset="UTF-8">
+  	<meta name="description" content="Testing out HTML tags">
+  	<meta name="keywords" content="HTML,CSE134b,UCSD,Powell,La Jolla">
+  	<meta name="author" content="Matthew Roknich">
+
+	<title>CSE 134b HTML Test Page</title>
+	<!-- style tag -->
+	<style>
+		h1 {color:red;}
+		p {color:blue;}
+	</style>
+
+	<!-- link tag -->
+	<link rel="stylesheet" type="text/css" href="../css/creative.css">
+</head>
+
+<body>
+
+<!-- header tag -->
+<header>
+<h1>CSE 134b Tag Testing Page!</h1>
+</header>
+
+<!-- nav tag -->
+<nav>
+  <a href="https://www.youtube.com/">Facebook</a> |
+  <a href="https://www.facebook.com/">Youtube</a> |
+  <a href="http://www.theonion.com/">Credible News Source</a> |
+  <a href="https://ucsd.edu/">Fake News</a>
+</nav>
+
+<br>
+
+<!-- section tag -->
+<section>
+<!-- textarea tag -->
+<textarea rows="4" cols="50">
+Prepare yourself... This site is quite possibly the ugliest looking thing you have ever seen. But it's my child. So I love it unconditionally.
+</textarea>
+<button type="button">Woah.Click This</button>
+</section>
+
+<!-- main tag-->
+<main>
+<!-- a tag, p tag, del, and ins -->
+<p>Click <a href="http://awkwardfamilyphotos.com/">here</a> to go to my <del>least</del> <ins> favorite website.</ins></p>
+
+<!-- ol,li tag-->
+<ol>
+  <li>Matt</li>
+  <li>Matthew</li>
+  <li>Rocky</li>
+</ol>
+
+<!-- ul tag-->
+<ul>
+  <li>John</li>
+  <li>Steve</li>
+  <li>Chris</li>
+</ul>
+
+<!-- dl,dt,dd tags -->
+<dl>
+  <dt>Matthew</dt>
+  <dd>Likes cheese puffs</dd>
+  <dd>Sometimes eats grass</dd>
+  <dd>Wants to be a squirrel</dd>
+  <dt>Hadar</dt>
+  <dd>Cool</dd>
+  <dd>Is a fantastic singer</dd>
+  <dd>Killed a dragon</dd>
+</dl>
+
+<h1> Here's a picture of the dragon </h1>
+<h4> if you were curious...woof </h4>
+<picture>
+  <source media="(min-width: 465px)" srcset="../img/doge.jpg"> 
+  	<img src="../img/doge.jpg" alt="Dragons" style="width:auto;">
+</picture>
+
+ <img src="../img/doge2.jpg" alt="doge2" style="width:auto;">
+ <img src="../img/dogeMove.gif" alt="dogeMove" style="width:auto;">
+ <img src="../img/Doge3.png" alt="doge3" style="width:auto;">
+ <img src="../img/test.webp" alt="test" style="width:auto;">
+ <img src="../img/cartman.svg" alt="cartman" style="width:auto;">
+
+<!-- form tag, input tags -->
+<form action=" " method="get">
+	<fieldset>
+		<legend>Personalia:</legend>
+			Name: <input type="text"><br>
+			Email: <input type="password"><br>
+			Date of birth: <input type="date">,
+			Do you attend UCSD?: <input type="checkbox">,
+			Yuh: <input type="radio">,
+			How many burritos have you eaten today?: <input type="number">
+		</fieldset>
+		<input type="submit" value="Submit">
+</form>
+
+<!-- select, optgroup, option tags -->
+<select>
+  <optgroup label="Shades of White">
+    <option value="not white">Not white</option>
+    <option value="kinda white">Kinda White</option>
+    <option value="white">White</option>
+  </optgroup>
+  <option value="blue">Blue</option>
+  <option value="green">Green</option>
+  <option value="black">Black</option>
+</select>
+</main>
+
+<div id='scriptTest'>
+</div>
+
+<!-- iframe tag -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0YPX8NhS38E" frameborder="0" allowfullscreen>
+	<param name="autoplay" value="true">
+</iframe>
+
+<!-- param tag -->
+<object data="../sounds/sound1.mp3">
+  <param name="autoplay" value="true">
+</object>
+
+<!-- object tag -->
+<object data="../img/hadar.png" type="image/png">
+Here's a rediculously large photo of Hadar!
+</object>
+
+<!-- footer tag -->
+<footer>
+	This is where the footer content will go! 
+</footer>
+</body>
+
+<!-- script tag -->
+<script>
+	document.getElementById("scriptTest").innerHTML = "This is a contrived example using the script tag!";
+</script>
+<noscript>Bummer! Your browser does not support JavaScript!</noscript>
+
+</html>

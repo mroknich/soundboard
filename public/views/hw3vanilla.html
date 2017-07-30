@@ -1,4 +1,4 @@
-<!-- This will be the structured version of our first assignment -->
+<!-- This will be the vanilla version of our assignment -->
 <!DOCTYPE html>
 <html>
 
@@ -25,47 +25,6 @@
   </div>
 </div>
 
-<script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myThemeFunction() {
-    document.getElementById("myDropdownTheme").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-</script>
-
-<script>
-function black() {
-	document.body.style.backgroundColor = "black";
-	document.body.style.color = "white";
-	var y = document.getElementsByClassName(dropbtn);
-	y.style.backgroundColor = "black";
-	y.style.color = "white";}
-
-function white() {
-	document.body.style.backgroundColor = "white";
-	document.body.style.color = "black";
-	var x = document.getElementsByClassName(dropbtn);
-	x.style.backgroundColor = "white";
-	x.style.color = "black";
-}
-</script>
-
-
 
 <div class="dropdown">
   <button onclick="myContentFunction()" class="dropbtn">Change Content</button>
@@ -75,7 +34,11 @@ function white() {
   </div>
 </div>
 
+<div class="navbarItem">
+  Toggle Complexity
+</div>
 
+<<<<<<< HEAD
 <script>
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
@@ -165,6 +128,13 @@ function spongebob() {
 }
 </script>
 
+=======
+<!-- Rounded switch -->
+<label class="switch">
+  <input type="checkbox">
+  <span class="slider round" onclick="toggle_visibility()"></span>
+</label>
+>>>>>>> bd6823494bb1c338e35a1e47ef0c02dbe4c67e96
 
 <div>
 
@@ -270,6 +240,195 @@ Your browser does not support this audio element.
 <p>Bears. Beets. Battlestar Galactica.</p>
 </footer>
 
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myContentFunction() {
+    document.getElementById("myDropdownContent").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+<script>
+function theOffice() {
+	document.getElementsByTagName("h1")[0].innerHTML = "The Office Fan SoundBoard";
+	document.getElementsByTagName("p")[0].innerHTML = "Bears. Beets. Battlestar Galactica.";
+
+	document.getElementById("topimg").src="../img/office_header.jpg";
+	document.getElementById("pic1").src="../pictures/pic1.jpg";
+	document.getElementById("pic2").src="../pictures/pic2.jpg";
+	document.getElementById("pic3").src="../pictures/pic3.jpg";
+	document.getElementById("pic4").src="../pictures/pic4.jpg";
+	document.getElementById("pic5").src="../pictures/pic5.jpg";
+	document.getElementById("pic6").src="../pictures/pic6.jpg";
+	document.getElementById("pic7").src="../pictures/pic7.jpg";
+	document.getElementById("pic8").src="../pictures/pic8.jpg";
+	document.getElementById("pic9").src="../pictures/pic9.jpg";
+	document.getElementById("pic10").src="../pictures/pic10.jpg";
+	document.getElementById("pic11").src="../pictures/pic11.jpg";
+	document.getElementById("pic12").src="../pictures/pic12.jpg";
+
+	document.getElementById("sound1").src="../sounds/sound1.mp3";
+    document.getElementById("audio1").load();
+	document.getElementById("sound2").src="../sounds/sound2.mp3";
+	document.getElementById("audio2").load();
+	document.getElementById("sound3").src="../sounds/sound3.mp3";
+	document.getElementById("audio3").load();
+	document.getElementById("sound4").src="../sounds/sound4.mp3";
+	document.getElementById("audio4").load();
+	document.getElementById("sound5").src="../sounds/sound5.mp3";
+	document.getElementById("audio5").load();
+	document.getElementById("sound6").src="../sounds/sound6.mp3";
+	document.getElementById("audio6").load();
+	document.getElementById("sound7").src="../sounds/sound7.mp3";
+	document.getElementById("audio7").load();
+	document.getElementById("sound8").src="../sounds/sound8.mp3";
+	document.getElementById("audio8").load();
+	document.getElementById("sound9").src="../sounds/sound9.mp3";
+	document.getElementById("audio9").load();
+	document.getElementById("sound10").src="../sounds/sound10.mp3";
+	document.getElementById("audio10").load();
+	document.getElementById("sound11").src="../sounds/sound11.mp3";
+	document.getElementById("audio12").load();
+	document.getElementById("sound12").src="../sounds/sound12.mp3";
+	document.getElementById("audio12").load();
+}
+
+function spongebob() {
+	document.getElementsByTagName("h1")[0].innerHTML = "The Spongebob Squarepants Fan SoundBoard";
+	document.getElementsByTagName("p")[0].innerHTML = "I'M READY!";
+
+	document.getElementById("topimg").src="../spongebobPics/headpic.jpg";
+	document.getElementById("pic1").src="../spongebobPics/pic1.jpg";
+	document.getElementById("pic2").src="../spongebobPics/pic2.jpg";
+	document.getElementById("pic3").src="../spongebobPics/pic3.jpg";
+	document.getElementById("pic4").src="../spongebobPics/pic4.jpg";
+	document.getElementById("pic5").src="../spongebobPics/pic5.jpg";
+	document.getElementById("pic6").src="../spongebobPics/pic6.jpg";
+	document.getElementById("pic7").src="../spongebobPics/pic7.jpg";
+	document.getElementById("pic8").src="../spongebobPics/pic8.jpg";
+	document.getElementById("pic9").src="../spongebobPics/pic9.jpg";
+	document.getElementById("pic10").src="../spongebobPics/pic10.jpg";
+	document.getElementById("pic11").src="../spongebobPics/pic11.jpg";
+	document.getElementById("pic12").src="../spongebobPics/pic12.jpg";
+
+	document.getElementById("sound1").src="../spongebobSounds/sound1.mp3";
+    document.getElementById("audio1").load();
+	document.getElementById("sound2").src="../spongebobSounds/sound2.mp3";
+	document.getElementById("audio2").load();
+	document.getElementById("sound3").src="../spongebobSounds/sound3.mp3";
+	document.getElementById("audio3").load();
+	document.getElementById("sound4").src="../spongebobSounds/sound4.mp3";
+	document.getElementById("audio4").load();
+	document.getElementById("sound5").src="../spongebobSounds/sound5.mp3";
+	document.getElementById("audio5").load();
+	document.getElementById("sound6").src="../spongebobSounds/sound6.mp3";
+	document.getElementById("audio6").load();
+	document.getElementById("sound7").src="../spongebobSounds/sound7.mp3";
+	document.getElementById("audio7").load();
+	document.getElementById("sound8").src="../spongebobSounds/sound8.mp3";
+	document.getElementById("audio8").load();
+	document.getElementById("sound9").src="../spongebobSounds/sound9.mp3";
+	document.getElementById("audio9").load();
+	document.getElementById("sound10").src="../spongebobSounds/sound10.mp3";
+	document.getElementById("audio10").load();
+	document.getElementById("sound11").src="../spongebobSounds/sound11.mp3";
+	document.getElementById("audio12").load();
+	document.getElementById("sound12").src="../spongebobSounds/sound12.mp3";
+	document.getElementById("audio12").load();
+
+}
+</script>
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myThemeFunction() {
+    document.getElementById("myDropdownTheme").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+<script>
+function black() {
+	document.body.style.backgroundColor = "black";
+	document.body.style.color = "white";
+	var y = document.getElementsByClassName(dropbtn);
+	y.style.backgroundColor = "black";
+	y.style.color = "white";}
+
+function white() {
+	document.body.style.backgroundColor = "white";
+	document.body.style.color = "black";
+	var x = document.getElementsByClassName(dropbtn);
+	x.style.backgroundColor = "white";
+	x.style.color = "black";
+}
+</script>
+
+<script>
+/* When the user clicks on the button, 
+toggle between simple and complex content */
+function toggleFunction() {
+    //document.getElementById("myDropdownContent").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+<script type="text/javascript">
+<!--
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+//-->
+</script>
 </body>
 </html>
 
