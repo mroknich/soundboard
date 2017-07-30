@@ -1,0 +1,1 @@
+From our experiences, we noticed we were more prone to making errors using just vanilla JS, but there was not a big different in using either. We saw that there was no significant different in performance between vanilla JS and JQuery because the script is not extremely long. However, Jquery does lead to smaller script which in turn results in smaller file size.
