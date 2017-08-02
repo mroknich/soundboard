@@ -279,6 +279,8 @@ window.onclick = function(event) {
 			pic.id = myData.pictures[0].title;
 			pic.src = myData.pictures[0].location;
 			pic.alt = myData.pictures[0].title;
+			var picItem = document.importNode(headPic.content, true);
+            bodyBody.appendChild(picItem);
 
 
 			var i;
