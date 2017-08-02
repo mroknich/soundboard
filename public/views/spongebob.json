@@ -1,0 +1,38 @@
+{
+    "pictures":[
+      {"title":"topPic", "location":"../spongebobPics/headpic.jpg"}, 
+      {"title":"pic1", "location":"../spongebobPics/pic1.jpg"}, 
+      {"title":"pic2", "location":"../spongebobPics/pic2.jpg"},
+      {"title":"pic3", "location":"../spongebobPics/pic3.jpg"}, 
+      {"title":"pic4", "location":"../spongebobPics/pic4.jpg"},
+      {"title":"pic5", "location":"../spongebobPics/pic5.jpg"}, 
+      {"title":"pic6", "location":"../spongebobPics/pic6.jpg"}, 
+      {"title":"pic7", "location":"../spongebobPics/pic7.jpg"}, 
+      {"title":"pic8", "location":"../spongebobPics/pic8.jpg"}, 
+      {"title":"pic9", "location":"../spongebobPics/pic9.jpg"}, 
+      {"title":"pic10", "location":"../spongebobPics/pic10.jpg"}, 
+      {"title":"pic11", "location":"../spongebobPics/pic11.jpg"}, 
+      {"title":"pic12", "location":"../spongebobPics/pic12.jpg"}, 
+    ],
+
+    "sounds":[
+      {"title":"sound1", "location":"../spongebobSounds/sound1.mp3"}, 
+      {"title":"sound2", "location":"../spongebobSounds/sound2.mp3"}, 
+      {"title":"sound3", "location":"../spongebobSounds/sound3.mp3"}, 
+      {"title":"sound4", "location":"../spongebobSounds/sound4.mp3"}, 
+      {"title":"sound5", "location":"../spongebobSounds/sound5.mp3"}, 
+      {"title":"sound6", "location":"../spongebobSounds/sound6.mp3"}, 
+      {"title":"sound7", "location":"../spongebobSounds/sound7.mp3"}, 
+      {"title":"sound8", "location":"../spongebobSounds/sound8.mp3"}, 
+      {"title":"sound9", "location":"../spongebobSounds/sound9.mp3"}, 
+      {"title":"sound10", "location":"../spongebobSounds/sound10.mp3"}, 
+      {"title":"sound11", "location":"../spongebobSounds/sound11.mp3"}, 
+      {"title":"sound12", "location":"../spongebobSounds/sound12.mp3"}, 
+    ],
+
+    "titles":[
+      {"header":"Spongebob Squarepanrs Fan Soundboard"},
+      {"footer":"I'M READY!"}
+    ]
+
+}

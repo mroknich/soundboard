@@ -1,0 +1,38 @@
+{
+    "pictures":[
+      {"title":"topPic", "location":"../img/office_header.jpg"}, 
+      {"title":"pic1", "location":"../pictures/pic1.jpg"}, 
+      {"title":"pic2", "location":"../pictures/pic2.jpg"},
+      {"title":"pic3", "location":"../pictures/pic3.jpg"}, 
+      {"title":"pic4", "location":"../pictures/pic4.jpg"},
+      {"title":"pic5", "location":"../pictures/pic5.jpg"}, 
+      {"title":"pic6", "location":"../pictures/pic6.jpg"}, 
+      {"title":"pic7", "location":"../pictures/pic7.jpg"}, 
+      {"title":"pic8", "location":"../pictures/pic8.jpg"}, 
+      {"title":"pic9", "location":"../pictures/pic9.jpg"}, 
+      {"title":"pic10", "location":"../pictures/pic10.jpg"}, 
+      {"title":"pic11", "location":"../pictures/pic11.jpg"}, 
+      {"title":"pic12", "location":"../pictures/pic12.jpg"}, 
+    ],
+
+    "sounds":[
+      {"title":"sound1", "location":"../sounds/sound1.mp3"}, 
+      {"title":"sound2", "location":"../sounds/sound2.mp3"}, 
+      {"title":"sound3", "location":"../sounds/sound3.mp3"}, 
+      {"title":"sound4", "location":"../sounds/sound4.mp3"}, 
+      {"title":"sound5", "location":"../sounds/sound5.mp3"}, 
+      {"title":"sound6", "location":"../sounds/sound6.mp3"}, 
+      {"title":"sound7", "location":"../sounds/sound7.mp3"}, 
+      {"title":"sound8", "location":"../sounds/sound8.mp3"}, 
+      {"title":"sound9", "location":"../sounds/sound9.mp3"}, 
+      {"title":"sound10", "location":"../sounds/sound10.mp3"}, 
+      {"title":"sound11", "location":"../sounds/sound11.mp3"}, 
+      {"title":"sound12", "location":"../sounds/sound12.mp3"}, 
+    ],
+
+    "titles":[
+      {"header":"The Office Fan Soundboard"},
+      {"footer":"Bears. Beets. Battlestart Galactica."}
+    ]
+
+}
