@@ -7,9 +7,10 @@
 	<link rel="stylesheet" href="./hw3css.css">
 </head>
 
-<body>
+<body class="body">
 
-	<img id="topimg" src="../img/office_header.jpg" align="middle" alt="topPic">
+	<!--<img id="topimg" src="../img/office_header.jpg" align="middle" alt="topPic">-->
+	<img id="" src="" alt="">
 
 	<header>
 		<h1>The Office Fan SoundBoard</h1>
@@ -264,12 +265,21 @@ window.onclick = function(event) {
 	function putContent(myData) {
 
 		var mainBody = document.querySelector("main");
+		var bodyBody = document.querySelector("body");
 
 		//if template supported
 		if ('content' in document.createElement('template')) {
 
+			<img id="topimg" src="../img/office_header.jpg" align="middle" alt="topPic">
+			var headPic = document.querySelector('#body');
+			var pic = headPic.content.querySelector("img");
+			pic.id = myData.pictures[0].title;
+			pic.src = myData.pictures[0].location;
+			pic.alt = myData.pictures[0].title;
+
+
 			var i;
-			for(i = 0; i < 12; i++) {
+			for(i = 1; i < 13; i++) {
 				var template = document.querySelector('#soundboardItems');
 				var image = template.content.querySelector("img");
 				var sound = template.content.querySelector("source");
@@ -288,7 +298,8 @@ window.onclick = function(event) {
 		else {
 			var html = "";
 			var i;
-			for(i = 0; i < 12; i++) {
+
+			for(i = 1; i < 13; i++) {
 				html += '<div>'
 				html += '<img id="' + myData.pictures[i].title + '" src="' + myData.pictures[i].location + '" alt=' + myData.pictures[i].title + "</img>";
 				html += '<audio id="' + myData.sounds[i].title  + "<controls>";
