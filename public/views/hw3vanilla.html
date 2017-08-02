@@ -4,15 +4,12 @@
 
 <head>
 	<title>The Office Fan SoundBoard</title>
-	<link rel="stylesheet" href="./hw3css.css">
+	<link rel="stylesheet" href="./hw3.css">
 </head>
 
-<body class="body">
+<body>
 
-	<!--<img id="topimg" src="../img/office_header.jpg" align="middle" alt="topPic">-->
-
-	<header>
-		<h1>The Office Fan SoundBoard</h1>
+	<header> <!-- header pic and title goes here -->
 	</header>
 
 	<button type="button">Login</button>
@@ -34,225 +31,45 @@
 		</div>
 	</div>
 
-	<div class="navbarItem">
-		Toggle Complexity
-	</div>
-
-	<main>
-
+	<main> <!-- image and sound content goes here -->
 	</main>
 
-	<script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myContentFunction() {
-	document.getElementById("myDropdownContent").classList.toggle("show");
-}
+	<footer> <!-- footer text goes here -->
+	</footer> 
 
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-	if (!event.target.matches('.dropbtn')) {
-
-		var dropdowns = document.getElementsByClassName("dropdown-content");
-		var i;
-		for (i = 0; i < dropdowns.length; i++) {
-			var openDropdown = dropdowns[i];
-			if (openDropdown.classList.contains('show')) {
-				openDropdown.classList.remove('show');
-			}
-		}
-	}
-}
-</script>
-
-<script>
-	function theOffice() {
-		document.getElementsByTagName("h1")[0].innerHTML = "The Office Fan SoundBoard";
-		document.getElementsByTagName("p")[0].innerHTML = "Bears. Beets. Battlestar Galactica.";
-
-		document.getElementById("topimg").src="../img/office_header.jpg";
-		document.getElementById("pic1").src="../pictures/pic1.jpg";
-		document.getElementById("pic2").src="../pictures/pic2.jpg";
-		document.getElementById("pic3").src="../pictures/pic3.jpg";
-		document.getElementById("pic4").src="../pictures/pic4.jpg";
-		document.getElementById("pic5").src="../pictures/pic5.jpg";
-		document.getElementById("pic6").src="../pictures/pic6.jpg";
-		document.getElementById("pic7").src="../pictures/pic7.jpg";
-		document.getElementById("pic8").src="../pictures/pic8.jpg";
-		document.getElementById("pic9").src="../pictures/pic9.jpg";
-		document.getElementById("pic10").src="../pictures/pic10.jpg";
-		document.getElementById("pic11").src="../pictures/pic11.jpg";
-		document.getElementById("pic12").src="../pictures/pic12.jpg";
-	}
-
-	function spongebob() {
-		document.getElementsByTagName("h1")[0].innerHTML = "The Spongebob Squarepants Fan SoundBoard";
-		document.getElementsByTagName("p")[0].innerHTML = "I'M READY!";
-
-		document.getElementById("topimg").src="../spongebobPics/headpic.jpg";
-		document.getElementById("pic1").src="../spongebobPics/pic1.jpg";
-		document.getElementById("pic2").src="../spongebobPics/pic2.jpg";
-		document.getElementById("pic3").src="../spongebobPics/pic3.jpg";
-		document.getElementById("pic4").src="../spongebobPics/pic4.jpg";
-		document.getElementById("pic5").src="../spongebobPics/pic5.jpg";
-		document.getElementById("pic6").src="../spongebobPics/pic6.jpg";
-		document.getElementById("pic7").src="../spongebobPics/pic7.jpg";
-		document.getElementById("pic8").src="../spongebobPics/pic8.jpg";
-		document.getElementById("pic9").src="../spongebobPics/pic9.jpg";
-		document.getElementById("pic10").src="../spongebobPics/pic10.jpg";
-		document.getElementById("pic11").src="../spongebobPics/pic11.jpg";
-		document.getElementById("pic12").src="../spongebobPics/pic12.jpg";
-
-		document.getElementById("sound1").src="../spongebobSounds/sound1.mp3";
-		document.getElementById("audio1").load();
-		document.getElementById("sound2").src="../spongebobSounds/sound2.mp3";
-		document.getElementById("audio2").load();
-		document.getElementById("sound3").src="../spongebobSounds/sound3.mp3";
-		document.getElementById("audio3").load();
-		document.getElementById("sound4").src="../spongebobSounds/sound4.mp3";
-		document.getElementById("audio4").load();
-		document.getElementById("sound5").src="../spongebobSounds/sound5.mp3";
-		document.getElementById("audio5").load();
-		document.getElementById("sound6").src="../spongebobSounds/sound6.mp3";
-		document.getElementById("audio6").load();
-		document.getElementById("sound7").src="../spongebobSounds/sound7.mp3";
-		document.getElementById("audio7").load();
-		document.getElementById("sound8").src="../spongebobSounds/sound8.mp3";
-		document.getElementById("audio8").load();
-		document.getElementById("sound9").src="../spongebobSounds/sound9.mp3";
-		document.getElementById("audio9").load();
-		document.getElementById("sound10").src="../spongebobSounds/sound10.mp3";
-		document.getElementById("audio10").load();
-		document.getElementById("sound11").src="../spongebobSounds/sound11.mp3";
-		document.getElementById("audio11").load();
-		document.getElementById("sound12").src="../spongebobSounds/sound12.mp3";
-		document.getElementById("audio12").load();
-
-	}
-</script>
-
-
-<!-- Rounded switch -->
-<label class="switch">
-	<input type="checkbox">
-	<span class="slider round" onclick="toggle_visibility()"></span>
-</label>
-
-
-<!-- <div>
-
-	<div>
-		<img id="pic1" src="../pictures/pic1.jpg" alt="pic1"/>
-		<audio id="audio1" controls>
-			<source id="sound1" src="../sounds/sound1.mp3" type="audio/mp3"> Your browser does not support this audio element.
-		</audio>
-	</div>
-
-	<div> 
-		<img id="pic2" src="../pictures/pic2.jpg" alt="pic2"/>
-		<audio id="audio2" controls>
-			<source id="sound2" src="../sounds/sound2.mp3" type="audio/mp3"> Your browser does not support this audio element.
-		</audio>
-	</div> 
-
-	<div> 
-		<img id="pic3" src="../pictures/pic3.jpg" alt="pic3"/> 
-		<audio id="audio3" controls> 
-			<source id="sound3" src="../sounds/sound3.mp3" type="audio/mp3"> Your browser does not support this audio element.
-		</audio> 
-	</div> 
-
-	<div> 
-		<img id="pic4" src="../pictures/pic4.jpg" alt="pic4"/> 
-		<audio id="audio4" controls> 
-			<source id="sound4" src="../sounds/sound4.mp3" type="audio/mp3"> Your browser does not support this audio element. 
-		</audio> 
-	</div>
-
-	<div> 
-		<img id="pic5" src="../pictures/pic5.jpg" alt="pic5"/> 
-		<audio id="audio5" controls> 
-			<source id="sound5" src="../sounds/sound5.mp3" type="audio/mp3"> Your browser does not support this audio element. 
-		</audio> 
-	</div> 
-
-	<div> 
-		<img id="pic6" src="../pictures/pic6.jpg" alt="pic6"/> 
-		<audio id="audio6" controls> 
-			<source id="sound6" src="../sounds/sound6.mp3" type="audio/mp3"> Your browser does not support this audio element. 
-		</audio> 
-	</div> 
-
-	<div> 
-		<img id="pic7" src="../pictures/pic7.jpg" alt="pic7"/> 
-		<audio id="audio7" controls> 
-			<source id="sound7" src="../sounds/sound7.mp3" type="audio/mp3"> Your browser does not support this audio element. 
-		</audio> 
-	</div> 
-
-	<div> 
-		<img id="pic8" src="../pictures/pic8.jpg" alt="pic8"/> 
-		<audio id="audio8" controls> 
-			<source id="sound8" src="../sounds/sound8.mp3" type="audio/mp3"> Your browser does not support this audio element. 
-		</audio> 
-	</div> 
-
-	<div> 
-		<img id="pic9" src="../pictures/pic9.jpg" alt="pic9"/> 
-		<audio id="audio9" controls> 
-			<source id="sound9" src="../sounds/sound9.mp3" type="audio/mp3"> Your browser does not support this audio element. 
-		</audio> 
-	</div> 
-
-	<div> 
-		<img id="pic10" src="../pictures/pic10.jpg" alt="pic10"/>
-		<audio id="audio10" controls> 
-			<source id="sound10" src="../sounds/sound10.mp3" type="audio/mp3"> Your browser does not support this audio element. 
-		</audio> 
-	</div> 
-
-	<div> 
-		<img id="pic11" src="../pictures/pic11.jpg" alt="pic11"/> 
-		<audio id="audio11" controls> 
-			<source id="sound11" src="../sounds/sound11.mp3" type="audio/mp3"> Your browser does not support this audio element. 
-		</audio> 
-	</div> 
-
-	<div> 
-		<img id="pic12" src="../pictures/pic12.jpg" alt="pic12"/> 
-		<audio id="audio12" controls> 
-			<source id="sound12" src="../sounds/sound12.mp3" type="audio/mp3"> Your browser does not support this audio element. 
-		</audio> 
-	</div> 
-
-</div>  -->
-	
-<footer> 
-	<p>Bears. Beets. Battlestar Galactica.</p> 
-</footer> 
 
 <!-- soundboard item template -->
 <template id="soundboardItems">
 	<div class="content">
 		<img id="" src="" alt="">
-		<audio controls>
+		<audio id="" controls>
 			<source id="" src="" type="audio/mp3">
 			Your browser does not support this audio element.
 		</audio>
 	</div>
 </template>
 
-<template id="headerImage">
+<!-- soundboard header image and text template -->
+<template id="header">
 	<img id="" src="" alt="">
+	<h1></h1>
 </template>
+
+<!-- soundboard footer text template -->
+<template id="footer">
+	<p></p>
+</template>
+
+</body>
+</html>
 
 <script>
 
-	document.body.onload = myFunction();
+	document.body.onload = myFunction("theOffice.json");
 
-	function myFunction() {
+	function myFunction(filename) {
 		var xmlhttp = new XMLHttpRequest();
-		var url = "theOffice.json";
+		var url = filename;
 
 		xmlhttp.onreadystatechange = function() {
 			if (this.readyState == 4 && this.status == 200) {
@@ -268,55 +85,93 @@ window.onclick = function(event) {
 	function putContent(myData) {
 
 		var mainBody = document.querySelector("main");
-		var bodyBody = document.querySelector("body");
+		var headerBody = document.querySelector("header");
+		var footerBody = document.querySelector("footer");
 
 		//if template supported
 		if ('content' in document.createElement('template')) {
 
-			var headPic = document.querySelector('#headerImage');
-			var pic = headPic.content.querySelector("img");
+			headerBody.innerHTML = ""
+			var head = document.querySelector('#header');
+			var pic = head.content.querySelector("img");
+			var title = head.content.querySelector("h1");
 			pic.id = myData.pictures[0].title;
 			pic.src = myData.pictures[0].location;
 			pic.alt = myData.pictures[0].title;
-			var picItem = document.importNode(headPic.content, true);
-            bodyBody.appendChild(picItem);
+			title.innerHTML = myData.titles[0].header;
+			var headItem = document.importNode(head.content, true);
+            headerBody.appendChild(headItem);
 
-
+            mainBody.innerHTML = "";
 			var i;
 			for(i = 1; i < 13; i++) {
 				var template = document.querySelector('#soundboardItems');
 				var image = template.content.querySelector("img");
+				var audio = template.content.querySelector("audio");
 				var sound = template.content.querySelector("source");
 				image.id = myData.pictures[i].title;
 				image.src = myData.pictures[i].location;
 				image.alt = myData.pictures[i].title;
-				sound.id = myData.sounds[i].title;
-				sound.src = myData.sounds[i].location;
+				audio.id = "audio" + i;
+				sound.id = myData.sounds[i-1].title;
+				sound.src = myData.sounds[i-1].location;
 
 				var item = document.importNode(template.content, true);
                 mainBody.appendChild(item);
 			}
+
+			footerBody.innerHTML = ""
+			var foot = document.querySelector('#footer');
+			var footer = foot.content.querySelector("p");
+			footer.innerHTML = myData.titles[1].footer;
+			var footItem = document.importNode(foot.content, true);
+            footerBody.appendChild(footItem);
+
 		}
 
 		//else if template not supported
 		else {
 			var html = "";
-			html += '<img id="' + myData.pictures[0].title + '" src="' + myData.pictures[0].location + '" alt=' + myData.pictures[0].title + "</img>";
-			bodyBody.innerHTML = html;
+			html += '<img id="' + myData.pictures[0].title + '" src="' + myData.pictures[0].location + '" alt=' + myData.pictures[0].title + '</img>';
+			html += '<h1> ' + myData.titles[0].header + '</h1>'
+			headerBody.innerHTML = html;
 
-			var html = "";
+            mainBody.innerHTML = "";
+			var html1 = "";
 			var i;
-			for(i = 1; i < 13; i++) {
-				html += '<div>'
-				html += '<img id="' + myData.pictures[i].title + '" src="' + myData.pictures[i].location + '" alt=' + myData.pictures[i].title + "</img>";
-				html += '<audio id="' + myData.sounds[i].title  + "<controls>";
-				html += '<source id="' + myData.sounds[i].title + '" src="' + myData.sounds[i].location + '" type="audio/mp3">';
-				html += '</audio>';
-				html += '</div>'
+			for(i = 0; i < 12; i++) {
+				html1 += '<div>'
+				html1 += '<img id="' + myData.pictures[i+1].title + '" src="' + myData.pictures[i+1].location + '" alt=' + myData.pictures[i+1].title + "</img>";
+				html1 += '<audio id="audio' + i  + " <controls>";
+				html1 += '<source id="' + myData.sounds[i].title + '" src="' + myData.sounds[i].location + '" type="audio/mp3">';
+				html1 += '</audio>';
+				html1 += '</div>'
 			}
-			mainBody.innerHTML = html;
+			mainBody.innerHTML = html1;
+
+			var html2 = "";
+			html2 += '<p> ' + myData.titles[1].footer + '</p>'
+			footerBody.innerHTML = html2;
 		}
 
+	}
+
+	function theOffice() {
+		document.body.onload = myFunction("theOffice.json");
+	}
+
+	function spongebob() {
+		document.body.onload = myFunction("spongebob.json");
+	}
+
+	function black() {
+		document.body.style.backgroundColor = "black";
+		document.body.style.color = "white";
+	}
+
+	function white() {
+		document.body.style.backgroundColor = "white";
+		document.body.style.color = "black";
 	}
 
 </script>
@@ -327,6 +182,11 @@ window.onclick = function(event) {
 <script> 
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
+
+function myThemeFunction() {
+	document.getElementById("myDropdownTheme").classList.toggle("show");
+}
+
 function myContentFunction() {
 	document.getElementById("myDropdownContent").classList.toggle("show");
 }
@@ -347,164 +207,6 @@ window.onclick = function(event) {
 }
 </script>
 
-
-<script>
-	function theOffice() {
-		document.getElementsByTagName("h1")[0].innerHTML = "The Office Fan SoundBoard";
-		document.getElementsByTagName("p")[0].innerHTML = "Bears. Beets. Battlestar Galactica.";
-
-		document.getElementById("topimg").src="../img/office_header.jpg";
-		document.getElementById("pic1").src="../pictures/pic1.jpg";
-		document.getElementById("pic2").src="../pictures/pic2.jpg";
-		document.getElementById("pic3").src="../pictures/pic3.jpg";
-		document.getElementById("pic4").src="../pictures/pic4.jpg";
-		document.getElementById("pic5").src="../pictures/pic5.jpg";
-		document.getElementById("pic6").src="../pictures/pic6.jpg";
-		document.getElementById("pic7").src="../pictures/pic7.jpg";
-		document.getElementById("pic8").src="../pictures/pic8.jpg";
-		document.getElementById("pic9").src="../pictures/pic9.jpg";
-		document.getElementById("pic10").src="../pictures/pic10.jpg";
-		document.getElementById("pic11").src="../pictures/pic11.jpg";
-		document.getElementById("pic12").src="../pictures/pic12.jpg";
-
-		document.getElementById("sound1").src="../sounds/sound1.mp3";
-		document.getElementById("audio1").load();
-		document.getElementById("sound2").src="../sounds/sound2.mp3";
-		document.getElementById("audio2").load();
-		document.getElementById("sound3").src="../sounds/sound3.mp3";
-		document.getElementById("audio3").load();
-		document.getElementById("sound4").src="../sounds/sound4.mp3";
-		document.getElementById("audio4").load();
-		document.getElementById("sound5").src="../sounds/sound5.mp3";
-		document.getElementById("audio5").load();
-		document.getElementById("sound6").src="../sounds/sound6.mp3";
-		document.getElementById("audio6").load();
-		document.getElementById("sound7").src="../sounds/sound7.mp3";
-		document.getElementById("audio7").load();
-		document.getElementById("sound8").src="../sounds/sound8.mp3";
-		document.getElementById("audio8").load();
-		document.getElementById("sound9").src="../sounds/sound9.mp3";
-		document.getElementById("audio9").load();
-		document.getElementById("sound10").src="../sounds/sound10.mp3";
-		document.getElementById("audio10").load();
-		document.getElementById("sound11").src="../sounds/sound11.mp3";
-		document.getElementById("audio12").load();
-		document.getElementById("sound12").src="../sounds/sound12.mp3";
-		document.getElementById("audio12").load();
-	}
-
-	function spongebob() {
-		document.getElementsByTagName("h1")[0].innerHTML = "The Spongebob Squarepants Fan SoundBoard";
-		document.getElementsByTagName("p")[0].innerHTML = "I'M READY!";
-
-		document.getElementById("topimg").src="../spongebobPics/headpic.jpg";
-		document.getElementById("pic1").src="../spongebobPics/pic1.jpg";
-		document.getElementById("pic2").src="../spongebobPics/pic2.jpg";
-		document.getElementById("pic3").src="../spongebobPics/pic3.jpg";
-		document.getElementById("pic4").src="../spongebobPics/pic4.jpg";
-		document.getElementById("pic5").src="../spongebobPics/pic5.jpg";
-		document.getElementById("pic6").src="../spongebobPics/pic6.jpg";
-		document.getElementById("pic7").src="../spongebobPics/pic7.jpg";
-		document.getElementById("pic8").src="../spongebobPics/pic8.jpg";
-		document.getElementById("pic9").src="../spongebobPics/pic9.jpg";
-		document.getElementById("pic10").src="../spongebobPics/pic10.jpg";
-		document.getElementById("pic11").src="../spongebobPics/pic11.jpg";
-		document.getElementById("pic12").src="../spongebobPics/pic12.jpg";
-
-		document.getElementById("sound1").src="../spongebobSounds/sound1.mp3";
-		document.getElementById("audio1").load();
-		document.getElementById("sound2").src="../spongebobSounds/sound2.mp3";
-		document.getElementById("audio2").load();
-		document.getElementById("sound3").src="../spongebobSounds/sound3.mp3";
-		document.getElementById("audio3").load();
-		document.getElementById("sound4").src="../spongebobSounds/sound4.mp3";
-		document.getElementById("audio4").load();
-		document.getElementById("sound5").src="../spongebobSounds/sound5.mp3";
-		document.getElementById("audio5").load();
-		document.getElementById("sound6").src="../spongebobSounds/sound6.mp3";
-		document.getElementById("audio6").load();
-		document.getElementById("sound7").src="../spongebobSounds/sound7.mp3";
-		document.getElementById("audio7").load();
-		document.getElementById("sound8").src="../spongebobSounds/sound8.mp3";
-		document.getElementById("audio8").load();
-		document.getElementById("sound9").src="../spongebobSounds/sound9.mp3";
-		document.getElementById("audio9").load();
-		document.getElementById("sound10").src="../spongebobSounds/sound10.mp3";
-		document.getElementById("audio10").load();
-		document.getElementById("sound11").src="../spongebobSounds/sound11.mp3";
-		document.getElementById("audio12").load();
-		document.getElementById("sound12").src="../spongebobSounds/sound12.mp3";
-		document.getElementById("audio12").load();
-	}
-</script>
-
-
-<script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myThemeFunction() {
-	document.getElementById("myDropdownTheme").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-	if (!event.target.matches('.dropbtn')) {
-
-		var dropdowns = document.getElementsByClassName("dropdown-content");
-		var i;
-		for (i = 0; i < dropdowns.length; i++) {
-			var openDropdown = dropdowns[i];
-			if (openDropdown.classList.contains('show')) {
-				openDropdown.classList.remove('show');
-			}
-		}
-	}
-}
-</script>
-
-
-<script>
-	function black() {
-		document.body.style.backgroundColor = "black";
-		document.body.style.color = "white";
-		var y = document.getElementsByClassName(dropbtn);
-		y.style.backgroundColor = "black";
-		y.style.color = "white";}
-
-		function white() {
-			document.body.style.backgroundColor = "white";
-			document.body.style.color = "black";
-			var x = document.getElementsByClassName(dropbtn);
-			x.style.backgroundColor = "white";
-			x.style.color = "black";
-		}
-</script>
-
-
-<script>
-/* When the user clicks on the button, 
-toggle between simple and complex content */
-function toggleFunction() {
-    //document.getElementById("myDropdownContent").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-	if (!event.target.matches('.dropbtn')) {
-
-		var dropdowns = document.getElementsByClassName("dropdown-content");
-		var i;
-		for (i = 0; i < dropdowns.length; i++) {
-			var openDropdown = dropdowns[i];
-			if (openDropdown.classList.contains('show')) {
-				openDropdown.classList.remove('show');
-			}
-		}
-	}
-}
-</script>
-
-
 <script type="text/javascript">
 	function toggle_visibility(id) {
 		var e = document.getElementById(id);
@@ -514,10 +216,6 @@ window.onclick = function(event) {
 			e.style.display = 'block';
 	}
 </script>
-
-
-</body>
-</html>
 
 <!-- File size: 2,729 bytes -->
 <!-- Load time: 3.35s -->

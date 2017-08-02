@@ -1,6 +1,6 @@
 {
     "pictures":[
-      {"title":"topPic", "location":"../img/office_header.jpg"}, 
+      {"title":"topimg", "location":"../img/office_header.jpg"},
       {"title":"pic1", "location":"../pictures/pic1.jpg"}, 
       {"title":"pic2", "location":"../pictures/pic2.jpg"},
       {"title":"pic3", "location":"../pictures/pic3.jpg"}, 

@@ -1,6 +1,6 @@
 {
     "pictures":[
-      {"title":"topPic", "location":"../spongebobPics/headpic.jpg"}, 
+      {"title":"topimg", "location":"../spongebobPics/headpic.jpg"},
       {"title":"pic1", "location":"../spongebobPics/pic1.jpg"}, 
       {"title":"pic2", "location":"../spongebobPics/pic2.jpg"},
       {"title":"pic3", "location":"../spongebobPics/pic3.jpg"}, 
@@ -31,7 +31,7 @@
     ],
 
     "titles":[
-      {"header":"Spongebob Squarepanrs Fan Soundboard"},
+      {"header":"Spongebob Squarepants Fan Soundboard"},
       {"footer":"I'M READY!"}
     ]
 
