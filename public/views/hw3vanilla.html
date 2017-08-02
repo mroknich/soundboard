@@ -246,7 +246,7 @@ window.onclick = function(event) {
 
 	document.body.onload = myFunction();
 
-	function myFunction() {}
+	function myFunction() {
 		var xmlhttp = new XMLHttpRequest();
 		var url = "theOffice.json";
 
@@ -292,7 +292,7 @@ window.onclick = function(event) {
 				html += '<div>'
 				html += '<img id="' + myData.pictures[i].title + '" src="' + myData.pictures[i].location + '" alt=' + myData.pictures[i].title + "</img>";
 				html += '<audio id="' + myData.sounds[i].title  + "<controls>";
-				html += '<source id="' + myData.sounds[i].title + '" src="' + myData.sounds.[i].location + '" type="audio/mp3">';
+				html += '<source id="' + myData.sounds[i].title + '" src="' + myData.sounds[i].location + '" type="audio/mp3">';
 				html += '</audio>';
 				html += '</div>'
 			}
