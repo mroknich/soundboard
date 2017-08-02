@@ -260,6 +260,7 @@ window.onclick = function(event) {
 
 		var mainBody = document.querySelector("main");
 
+		//if template supported
 		if ('content' in document.createElement('template')) {
 
 			var i;
@@ -277,18 +278,23 @@ window.onclick = function(event) {
 				var item = document.importNode(temp.content, true);
                 main.appendChild(item);
 			}
-
-			/*var html = "";
-			var i;
-			for(i = 0; i < arr.length; i++) {
-				html += '<img id="' + data["pictures"][i]["title"] + '" src="' + data["pictures"][i]["location"] + '" alt=' + data["pictures"][i]["title"] + "</img>";
-				html += '<audio id="' + data["sounds"][i]["title"]  + "<controls>";
-				html += '<source id="' + data["sounds"][i]["title"] + '" src="' + data["sounds"][i]["location"] + '" type="audio/mp3">';
-				html += '</audio>';
-			}
-			main.innerHTML = html;*/
-
 		}
+
+		//else if template not supported
+		else {
+			var html = "";
+			var i;
+			for(i = 0; i < 12; i++) {
+				html += '<div>'
+				html += '<img id="' + myData.pictures[i].title + '" src="' + myData.pictures[i].location + '" alt=' + myData.pictures[i].title + "</img>";
+				html += '<audio id="' + myData.sounds[i].title  + "<controls>";
+				html += '<source id="' + myData.sounds[i].title + '" src="' + myData.sounds.[i].location + '" type="audio/mp3">';
+				html += '</audio>';
+				html += '</div>'
+			}
+			main.innerHTML = html;
+		}
+
 	}
 
 </script>
