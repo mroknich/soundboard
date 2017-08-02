@@ -267,11 +267,11 @@ window.onclick = function(event) {
 				var template = document.querySelector('#soundboardItems');
 				var image = template.content.querySelector("img");
 				var sound = template.content.querySelector("source");
-				image.id = myData["pictures"][i]["title"];
-				image.src = myData["pictures"][i]["location"];
-				image.alt = myData["pictures"][i]["title"];
-				sound.id = myData["sounds"][i]["title"];
-				sound.src = myData["sounds"][i]["location"];
+				image.id = myData.pictures[i].title;
+				image.src = myData.pictures[i].location;
+				image.alt = myData.pictures[i].title;
+				sound.id = myData.sounds[i].title;
+				sound.src = myData.sounds[i].location;
 				sound.type = "audio/mp3";
 
 				var item = document.importNode(temp.content, true);
