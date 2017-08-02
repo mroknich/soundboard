@@ -243,18 +243,23 @@ window.onclick = function(event) {
 </template>
 
 <script>
-	var xmlhttp = new XMLHttpRequest();
-	var url = "theOffice.json";
 
-	xmlhttp.onreadystatechange = function() {
-		if (this.readyState == 4 && this.status == 200) {
-			var myData = JSON.parse(this.responseText);
-			putContent(myData);
+	document.body.onload = myFunction();
 
-		}
-	};
-	xmlhttp.open("GET", url, true);
-	xmlhttp.send();
+	function myFunction() {}
+		var xmlhttp = new XMLHttpRequest();
+		var url = "theOffice.json";
+
+		xmlhttp.onreadystatechange = function() {
+			if (this.readyState == 4 && this.status == 200) {
+				var myData = JSON.parse(this.responseText);
+				putContent(myData);
+
+			}
+		};
+		xmlhttp.open("GET", url, true);
+		xmlhttp.send();
+	}
 
 	function putContent(myData) {
 
