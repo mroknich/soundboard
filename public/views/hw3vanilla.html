@@ -234,9 +234,9 @@ window.onclick = function(event) {
 <!-- soundboard item template -->
 <template id="soundboardItems">
 	<div class="content">
-		<img>
+		<img id="" src="" alt="">
 		<audio controls>
-			<source>
+			<source id="" src="" type="audio/mp3">
 			Your browser does not support this audio element.
 		</audio>
 	</div>
@@ -273,7 +273,6 @@ window.onclick = function(event) {
 				image.alt = myData.pictures[i].title;
 				sound.id = myData.sounds[i].title;
 				sound.src = myData.sounds[i].location;
-				sound.type = "audio/mp3";
 
 				var item = document.importNode(temp.content, true);
                 main.appendChild(item);
