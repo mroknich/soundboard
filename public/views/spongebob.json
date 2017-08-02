@@ -12,7 +12,7 @@
       {"title":"pic9", "location":"../spongebobPics/pic9.jpg"}, 
       {"title":"pic10", "location":"../spongebobPics/pic10.jpg"}, 
       {"title":"pic11", "location":"../spongebobPics/pic11.jpg"}, 
-      {"title":"pic12", "location":"../spongebobPics/pic12.jpg"}, 
+      {"title":"pic12", "location":"../spongebobPics/pic12.jpg"}
     ],
 
     "sounds":[
@@ -27,12 +27,12 @@
       {"title":"sound9", "location":"../spongebobSounds/sound9.mp3"}, 
       {"title":"sound10", "location":"../spongebobSounds/sound10.mp3"}, 
       {"title":"sound11", "location":"../spongebobSounds/sound11.mp3"}, 
-      {"title":"sound12", "location":"../spongebobSounds/sound12.mp3"}, 
+      {"title":"sound12", "location":"../spongebobSounds/sound12.mp3"}
     ],
 
     "titles":[
       {"header":"Spongebob Squarepanrs Fan Soundboard"},
-      {"footer":"I'M READY!"},
+      {"footer":"I'M READY!"}
     ]
 
 }

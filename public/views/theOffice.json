@@ -12,7 +12,7 @@
       {"title":"pic9", "location":"../pictures/pic9.jpg"}, 
       {"title":"pic10", "location":"../pictures/pic10.jpg"}, 
       {"title":"pic11", "location":"../pictures/pic11.jpg"}, 
-      {"title":"pic12", "location":"../pictures/pic12.jpg"},
+      {"title":"pic12", "location":"../pictures/pic12.jpg"}
     ],
 
     "sounds":[
@@ -27,12 +27,12 @@
       {"title":"sound9", "location":"../sounds/sound9.mp3"}, 
       {"title":"sound10", "location":"../sounds/sound10.mp3"}, 
       {"title":"sound11", "location":"../sounds/sound11.mp3"}, 
-      {"title":"sound12", "location":"../sounds/sound12.mp3"},
+      {"title":"sound12", "location":"../sounds/sound12.mp3"}
     ],
 
     "titles":[
       {"header":"The Office Fan Soundboard"},
-      {"footer":"Bears. Beets. Battlestart Galactica."},
+      {"footer":"Bears. Beets. Battlestart Galactica."}
     ]
 
 }
