@@ -280,7 +280,7 @@ window.onclick = function(event) {
 				sound.src = myData.sounds[i].location;
 
 				var item = document.importNode(template.content, true);
-                main.appendChild(item);
+                mainBody.appendChild(item);
 			}
 		}
 
@@ -296,7 +296,7 @@ window.onclick = function(event) {
 				html += '</audio>';
 				html += '</div>'
 			}
-			main.innerHTML = html;
+			mainBody.innerHTML = html;
 		}
 
 	}
