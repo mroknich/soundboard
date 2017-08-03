@@ -3,10 +3,13 @@ body {
     color: #ffffff
 } 
 
-header {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
+header{
+    display: block;
+    margin: auto;
+}
+header > img:after{
+  content: "\A";
+  white-space: pre;
 }
 
 body > img:nth-child(1) {
@@ -20,12 +23,13 @@ body > button {
     margin-bottom: 10px;
 }
 
-div > div {
+main > div {
     height: 250px;
     width: 250px;
     float: left;
     padding: 10px;
     display: table;
+    margin: auto;
 }
 
 div > img {
