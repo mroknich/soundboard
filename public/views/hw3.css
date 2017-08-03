@@ -6,6 +6,7 @@ body {
 header{
     display: block;
     margin: auto;
+    text-align: center;
 }
 header > img:after{
   content: "\A";
@@ -30,6 +31,7 @@ main > div {
     padding: 10px;
     display: table;
     margin: auto;
+    text-align: center;
 }
 
 div > img {
