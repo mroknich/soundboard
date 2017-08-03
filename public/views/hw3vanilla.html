@@ -12,8 +12,9 @@
 	<header> <!-- header pic and title goes here -->
 	</header>
 
-	<button type="button">Login</button>
+	<button type="button">Login</button> <!-- login button -->
 
+	<!-- dropdown menu for theme switch -->
 	<div class="dropdown">
 		<button onclick="myThemeFunction()" class="dropbtn">Change Theme</button>
 		<div id="myDropdownTheme" class="dropdown-content">
@@ -22,7 +23,7 @@
 		</div>
 	</div>
 
-
+	<!-- dropdown menu for content switch -->
 	<div class="dropdown">
 		<button onclick="myContentFunction()" class="dropbtn">Change Content</button>
 		<div id="myDropdownContent" class="dropdown-content">
@@ -73,12 +74,27 @@
 
 		xmlhttp.onreadystatechange = function() {
 			if (this.readyState == 4 && this.status == 200) {
-				var myData = JSON.parse(this.responseText);
+				var data;
+				try {
+					myData = JSON.parse(this.responseText);
+				}
+				catch(e) {
+					alert("ERROR: Incorrect JSON format.");
+				}
 				putContent(myData);
-
+			}
+			else if (this.readyState == 4 && this.status == 404) {
+				alert("ERROR 404: The requested page could not be found.");
+			}
+			else if (this.readyState == 4 && this.status == 500) {
+				alert("ERROR 500: Internal server error.");
 			}
 		};
 		xmlhttp.open("GET", url, true);
+		xmlhttp.timeout = 20000;
+		xmlhttp.ontimeout = function () {
+			alert("Timed out!");
+		}
 		xmlhttp.send();
 	}
 
@@ -216,6 +232,8 @@ window.onclick = function(event) {
 			e.style.display = 'block';
 	}
 </script>
+
+<noscript>Sorry, your browser does not support JavaScript!</noscript>
 
 <!-- File size: 2,729 bytes -->
 <!-- Load time: 3.35s -->
